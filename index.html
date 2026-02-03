@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting Portfolio | MAcc Candidate</title>
+    <style>
+        :root {
+            --primary: #0b3d91; /* Strong Corporate Blue */
+            --accent: #d4af37;  /* Professional Gold accent */
+            --bg: #ffffff;
+            --text: #2c3e50;
+        }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; color: var(--text); background: var(--bg); }
+        
+        /* Header & Profile Section */
+        header { background: var(--primary); color: white; padding: 4rem 1rem; text-align: center; }
+        .profile-img { 
+            width: 180px; height: 180px; border-radius: 50%; border: 4px solid white; 
+            object-fit: cover; margin-bottom: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+        }
+        
+        nav { background: #f8f9fa; padding: 1rem; text-align: center; position: sticky; top: 0; border-bottom: 1px solid #ddd; z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--primary); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; }
+        
+        .container { max-width: 900px; margin: auto; padding: 3rem 1.5rem; }
+        h2 { border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; color: var(--primary); }
+        
+        /* Project Cards */
+        .card { background: #fdfdfd; border: 1px solid #eee; padding: 1.5rem; margin-bottom: 2rem; border-radius: 8px; transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .skill-category { background: #f4f4f4; padding: 1rem; border-radius: 5px; }
+        
+        footer { text-align: center; padding: 3rem; background: #2c3e50; color: #bdc3c7; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="business pic.jpg" alt="Professional Portrait" class="profile-img">
+    <h1>Accountant & Data Specialist</h1>
+    <p>MAcc Candidate | Utah Valley University</p>
+</header>
+
+<nav>
+    <a href="#about">Profile</a>
+    <a href="#specialization">Specialization</a>
+    <a href="#projects">Technical Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>Professional Profile</h2>
+        <p>
+            I am a Master of Accountancy candidate at <strong>Utah Valley University</strong>, with an anticipated graduation in <strong>May 2026</strong>. 
+            My professional focus centers on high-integrity financial reporting, auditing standards, and leveraging automation to streamline complex accounting workflows.
+        </p>
+    </section>
+
+    <section id="specialization">
+        <h2>Technical & Regulatory Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Data Automation</strong>
+                <p>Advanced Excel & VBA for data cleaning and fraud detection.</p>
+            </div>
+            <div class="skill-category">
+                <strong>Reporting Standards</strong>
+                <p>Deep dive into IFRS, GAAP, and PCAOB auditing standards.</p>
+            </div>
+            <div class="skill-category">
+                <strong>Niche Topics</strong>
+                <p>Interest in ESG reporting, SOC reports, and tax regulations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Key Projects</h2>
+        <div class="card">
+            <h3>Automated Fraud Detection Suite</h3>
+            <p>Developed custom VBA modules designed to identify duplicate expense entries and inconsistent date formats within journal entry datasets.</p>
+        </div>
+        <div class="card">
+            <h3>MAcc Program Survey Analysis</h3>
+            <p>Led a data-driven analysis of multi-year survey data for the UVU MAcc program to provide actionable insights for program development.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Connect With Me</h2>
+        <p>Currently seeking opportunities in staff accounting and auditing where I can apply my background in data analytics and financial compliance.</p>
+        <p>Email: <em>[Your Email Address]</em></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 | Professional Portfolio | Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
